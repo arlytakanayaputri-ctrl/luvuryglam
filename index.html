@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maison Dorée — Fine Gold Jewelry</title>
+    <title> Luvury Glam </title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,15 +23,21 @@ https://templatemo.com/tm-611-maison-doree
     <header class="site-header" id="header">
         <div class="container">
             <div class="header-inner">
-                <a href="#" class="logo">Maison <span>Dorée</span></a>
+                <a href="#" class="logo">Luvury <span>Glam</span></a>
                 
                 <nav class="nav-main">
-                    <a href="#collections">Collections</a>
-                    <a href="#story">Our Story</a>
-                    <a href="#craftsmanship">Craftsmanship</a>
-                    <a href="#contact">Visit Us</a>
-                    <a href="#contact" class="nav-cta">Book Appointment</a>
+                    <a href="#collections">Koleksi</a>
+                    <a href="#story">Kisah Kami</a>
+                    <a href="#craftsmanship">Keahlian Kami</a>
+                    <a href="#contact">Kunjungi Kami</a>
+                    <a href="#contact" class="nav-cta">Buat Janji Temu</a>
+                    <p id="userInfo">Belum login</p>
+                
+<div id="authArea">
+    <button onclick="window.location.href='login/form.html'" class="nav-cta">login</button>
+</div> 
                 </nav>
+                
                 
                 <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
                     <span></span>
@@ -47,31 +53,31 @@ https://templatemo.com/tm-611-maison-doree
     <nav class="mobile-nav" id="mobileNav">
         <button class="mobile-nav-close" id="mobileNavClose">×</button>
         <ul class="mobile-nav-links">
-            <li><a href="#collections">Collections</a></li>
-            <li><a href="#story">Our Story</a></li>
-            <li><a href="#craftsmanship">Craftsmanship</a></li>
-            <li><a href="#contact">Visit Us</a></li>
+            <li><a href="#collections">Koleksi</a></li>
+            <li><a href="#story">Kisah Kami</a></li>
+            <li><a href="#craftsmanship">Keahlian Kami</a></li>
+            <li><a href="#contact">Kunjungi Kami</a></li>
         </ul>
         <div class="mobile-nav-cta">
-            <a href="#contact" class="btn-primary">Book Appointment</a>
+            <a href="#contact" class="btn-primary">Buat Janji Temu</a>
         </div>
     </nav>
     
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <p class="text-label hero-tagline">Artisan Gold Jewelry Since 1987</p>
+            <p class="text-label hero-tagline">Perhiasan Emas Buatan Tangan Sejak 1975</p>
             <h1 class="heading-display hero-title">
-                Where Gold<br>Becomes <em>Art</em>
+                Dimana Emas<br>Menjadi <em>Karya Seni</em>
             </h1>
             <p class="text-body hero-description">
-                Each piece in our collection is handcrafted by master artisans, 
-                transforming the finest gold into wearable works of art that 
-                tell your unique story.
+               Setiap perhiasan dalam koleksi kami dibuat langsung oleh tangan pengrajin ahli,
+                mengubah emas murni terbaik menjadi sebuah karya seni berharga yang 
+                menceritakan kisah unik Anda.
             </p>
             <div class="hero-actions">
-                <a href="#collections" class="btn-primary">Explore Collections</a>
-                <a href="#story" class="btn-text">Our Heritage</a>
+                <a href="#collections" class="btn-primary">Jelajahi Koleksi</a>
+                <a href="#story" class="btn-text">Warisan Kami</a>
             </div>
         </div>
         <div class="hero-image">
@@ -88,13 +94,13 @@ https://templatemo.com/tm-611-maison-doree
                      alt="Heritage gold ring collection">
             </div>
             <div class="hero-image-overlay">
-                <p class="overlay-title" id="heroTitle">Serpentine Collection</p>
-                <p class="overlay-price" id="heroPrice">From $2,400</p>
+                <p class="overlay-title" id="heroTitle">Koleksi Serpentine</p>
+                <p class="overlay-price" id="heroPrice">Mulai Dari$2,400</p>
             </div>
         </div>
     </section>
     
-    <!-- Featured Piece -->
+     <!-- Featured Piece -->
     <section class="featured-piece">
         <div class="container">
             <div class="featured-grid">
@@ -103,52 +109,47 @@ https://templatemo.com/tm-611-maison-doree
                         <img src="images/maison-hero-02.jpg" 
                              alt="Handcrafted gold necklace">
                     </div>
-                    <div class="featured-badge">New Arrival</div>
+                    <div class="featured-badge">Koleksi Terbaru</div>
                 </div>
                 <div class="featured-content">
-                    <p class="text-label featured-label">Featured Piece</p>
+                    <p class="text-label featured-label">Produk Unggulan</p>
                     <h2 class="heading-display featured-title">
-                        Aurora Pendant
+                        Liontin Aurora
                     </h2>
                     <p class="text-body featured-description">
-                        Inspired by the ethereal dance of northern lights, 
-                        the Aurora Pendant captures the fluid movement of light 
-                        through hand-hammered 22-karat gold. Each surface catches 
-                        and reflects light differently, creating a mesmerizing 
-                        display of golden hues.
+                        Terinpirasi oleh tarian magis cahaya utara, 
+                        Liontin Aurora menangkap keindahan gerakan cahaya yang mengalir 
+                        melalui emas 22 karat yang ditempa manual. Setiap permukaanya menangkap
+                        dan memantulkan cahaya secara unik, menciptakan kilauan emas yang memukau
                     </p>
                     <div class="featured-details">
                         <div class="detail-row">
-                            <span class="detail-label">Material</span>
-                            <span class="detail-value">22K Yellow Gold</span>
+                            <span class="detail-label">Bahan</span>
+                            <span class="detail-value">Emas kuning 22K</span>
                         </div>
                         <div class="detail-row">
-                            <span class="detail-label">Weight</span>
-                            <span class="detail-value">18.5 grams</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Chain Length</span>
-                            <span class="detail-value">18 inches (adjustable)</span>
+                            <span class="detail-label">Berat</span>
+                            <span class="detail-value">18.5 gram</span>
                         </div>
                     </div>
                     <p class="featured-price">$4,850</p>
-                    <a href="#contact" class="btn-primary">Inquire About This Piece</a>
+                    <a href="#contact" class="btn-primary">Tanyakan ProduK Ini</a>
                 </div>
             </div>
         </div>
     </section>
     
-    <!-- Collections -->
+     <!-- Collections -->
     <section class="collections" id="collections">
         <div class="container">
             <div class="section-header">
                 <div class="section-header-left">
-                    <h2 class="heading-display section-title">Our Collections</h2>
+                    <h2 class="heading-display section-title">Koleksi Kami</h2>
                     <p class="text-body section-subtitle">
-                        Discover pieces crafted for every chapter of your story
+                        Temukan mahakarya yang dirancang untuk setiap babak kisah hidup anda 
                     </p>
                 </div>
-                <a href="#" class="btn-text">View All Collections</a>
+                <a href="#" class="btn-text">Lihat Semua Koleksi</a>
             </div>
             
             <div class="collections-grid">
@@ -158,8 +159,8 @@ https://templatemo.com/tm-611-maison-doree
                              alt="Bridal jewelry collection">
                     </div>
                     <div class="collection-overlay">
-                        <h3 class="collection-name">Bridal</h3>
-                        <p class="collection-count">24 pieces</p>
+                        <h3 class="collection-name">Pernikahan</h3>
+                        <p class="collection-count">24 produk</p>
                     </div>
                 </div>
                 
@@ -169,8 +170,8 @@ https://templatemo.com/tm-611-maison-doree
                              alt="Everyday gold jewelry">
                     </div>
                     <div class="collection-overlay">
-                        <h3 class="collection-name">Everyday Elegance</h3>
-                        <p class="collection-count">36 pieces</p>
+                        <h3 class="collection-name">Keanggunan Harian</h3>
+                        <p class="collection-count">36 produk</p>
                     </div>
                 </div>
                 
@@ -180,8 +181,8 @@ https://templatemo.com/tm-611-maison-doree
                              alt="Statement gold pieces">
                     </div>
                     <div class="collection-overlay">
-                        <h3 class="collection-name">Statement</h3>
-                        <p class="collection-count">18 pieces</p>
+                        <h3 class="collection-name">Eksklusif</h3>
+                        <p class="collection-count">18 produk</p>
                     </div>
                 </div>
                 
@@ -191,8 +192,8 @@ https://templatemo.com/tm-611-maison-doree
                              alt="Heritage collection">
                     </div>
                     <div class="collection-overlay">
-                        <h3 class="collection-name">Heritage</h3>
-                        <p class="collection-count">12 pieces</p>
+                        <h3 class="collection-name">Warisan Tradisi</h3>
+                        <p class="collection-count">12 produk</p>
                     </div>
                 </div>
                 
@@ -202,40 +203,38 @@ https://templatemo.com/tm-611-maison-doree
                              alt="Men's gold collection">
                     </div>
                     <div class="collection-overlay">
-                        <h3 class="collection-name">Men's Collection</h3>
-                        <p class="collection-count">15 pieces</p>
+                        <h3 class="collection-name">Koleksi Pria</h3>
+                        <p class="collection-count">15 Produk</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <!-- Our Story -->
+       <!-- Our Story -->
     <section class="story" id="story">
         <div class="container">
             <div class="story-grid">
                 <div class="story-content">
-                    <p class="text-label story-label">Our Heritage</p>
+                    <p class="text-label story-label">Warisan Kami</p>
                     <h2 class="heading-display story-title">
-                        Three Generations of Golden Mastery
+                        Tiga Generasi Keahlian Emas Sempurna 
                     </h2>
                     <p class="text-body story-text">
-                        Founded in 1987 by master goldsmith Henri Beaumont, 
-                        Maison Dorée has remained a family atelier dedicated to 
-                        the art of fine gold jewelry. What began in a small 
-                        workshop in the heart of the jewelry district has 
-                        blossomed into a celebrated house known for impeccable 
-                        craftsmanship.
+                        Didirikan pada tahun 1975 oleh ahli pandai emas Henri Beaumont, 
+                        Luvury Glam tetap menjadi studio keluarga yang berdedikasi penuh pada 
+                        seni perhiasan emas murni. Apa yang dimulai dari sebuah bengkel kecil 
+                        di jantung distrik perhiasan kini telah berkembang menjadi rumah mode 
+                        terkenal yang dihargai karena keahliannya yang tanpa cela.
                     </p>
                     <p class="text-body story-text">
-                        Today, our third-generation artisans continue the 
-                        tradition, blending time-honored techniques with 
-                        contemporary design sensibilities. Every piece that 
-                        leaves our workshop carries the weight of this legacy.
+                        Hari ini, para pengrajin generasi ketiga kami melanjutkan tradisi ini, 
+                        memadukan teknik turun-temurun dengan kepekaan desain modern. Setiap perhiasan 
+                        yang keluar dari studio kami membawa nilai mendalam dari warisan ini.
                     </p>
                     <div class="story-signature">
                         <p class="signature-name">Isabelle Beaumont</p>
-                        <p class="signature-title">Creative Director</p>
+                        <p class="signature-title">Derektur Kreatif</p>
                     </div>
                 </div>
                 <div class="story-images">
@@ -251,30 +250,45 @@ https://templatemo.com/tm-611-maison-doree
             </div>
         </div>
     </section>
+    <section class="school-video" style="padding: 60px 0; background-color: #f9f9f9; text-align: center;">
+        <div class="container">
+            <p class="text-label" style="margin-bottom: 10px;">Profil Visual</p>
+            <h2 class="heading-display" style="margin-bottom: 30px; font-size: 2.5rem;">Jelajahi Pembuatan Perhiasan Emas Kami</h2>
+            
+            <div class="video-container" style="position: relative; width: 100%; max-width: 850px; margin: 0 auto; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <iframe 
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                    src="https://www.youtube.com/embed/dt9mRDJ97Q0" 
+                    title="Video Pembuatan Hiasan Emas" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
     
-    <!-- Craftsmanship -->
+       <!-- Craftsmanship -->
     <section class="craftsmanship" id="craftsmanship">
         <div class="container">
             <div class="craft-grid">
                 <div class="craft-content">
-                    <p class="text-label">The Art of Creation</p>
+                    <p class="text-label">Seni Penciptaan</p>
                     <h2 class="heading-display craft-title">
-                        Crafted by Hand, Treasured Forever
+                        Dibuat Menggunakan Tangan, Dihargai Selamanya 
                     </h2>
                     <p class="text-body craft-text">
-                        Each Maison Dorée piece undergoes a meticulous journey 
-                        from concept to completion. Our artisans employ 
-                        traditional goldsmithing techniques passed down through 
-                        generations, ensuring every curve, texture, and finish 
-                        meets our exacting standards.
+                        Setiap perhiasan Luvury Glam melalui proses yang sangat teliti 
+                        mulai dari konsep hingga selesai. Pengrajin kami menerapkan teknik 
+                        tradisional yang diwariskan dari generasi ke generasi, memastikan setiap 
+                        lengkungan, tekstur, dan sentuhan akhir memenuhi standar tinggi kami.
                     </p>
                     <ul class="craft-list text-body">
-                        <li>Hand-selected materials from ethical sources</li>
-                        <li>Traditional lost-wax casting and hand-forging</li>
-                        <li>Multiple quality inspections at every stage</li>
-                        <li>Personalized finishing and custom sizing</li>
+                        <li>Bahan pilihan dari sumber yang etis dan bertanggung jawab</li>
+                        <li>Teknik cetak lilin tradisional dan penempaan manual</li>
+                        <li>Pemeriksaan kualitas berlapis di setiap tahapan</li>
+                        <li>Sentuhan akhir personal dan penyesuaian ukuran khusus</li>
                     </ul>
-                    <a href="#contact" class="btn-primary">Commission a Custom Piece</a>
+                    <a href="#contact" class="btn-primary">Pesan Perhiasan Kustom</a>
                 </div>
                 <div class="craft-image-wrapper">
                     <div class="craft-image">
@@ -284,15 +298,15 @@ https://templatemo.com/tm-611-maison-doree
                     <div class="craft-stats">
                         <div class="stat-item">
                             <p class="stat-number">37</p>
-                            <p class="stat-label">Years of Excellence</p>
+                            <p class="stat-label">Tahun Pengalaman</p>
                         </div>
                         <div class="stat-item">
                             <p class="stat-number">12</p>
-                            <p class="stat-label">Master Artisans</p>
+                            <p class="stat-label">Pengrajin Ahli</p>
                         </div>
                         <div class="stat-item">
-                            <p class="stat-number">8K+</p>
-                            <p class="stat-label">Pieces Created</p>
+                            <p class="stat-number">8Rb+</p>
+                            <p class="stat-label">Karya Diciptakan</p>
                         </div>
                     </div>
                 </div>
@@ -300,13 +314,13 @@ https://templatemo.com/tm-611-maison-doree
         </div>
     </section>
     
-    <!-- Testimonials -->
+     <!-- Testimonials -->
     <section class="testimonials">
         <div class="container">
             <div class="testimonials-header">
-                <p class="text-label">Client Stories</p>
-                <h2 class="heading-display testimonials-title">Treasured by Many</h2>
-                <p class="text-body testimonials-subtitle">What our clients say about their Maison Dorée experience</p>
+                <p class="text-label">Kisah Pelanggan</p>
+                <h2 class="heading-display testimonials-title">Dipercaya oleh Banyak Hati</h2>
+                <p class="text-body testimonials-subtitle">Apa yang pelanggan katakan tentang pengalaman mereka di Luvury Glam</p>
             </div>
             
             <div class="testimonials-grid">
@@ -315,7 +329,7 @@ https://templatemo.com/tm-611-maison-doree
                         <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                     </div>
                     <p class="testimonial-text">
-                        The attention to detail is extraordinary. My wedding set from Maison Dorée isn't just jewelry — it's a work of art that I'll cherish forever.
+                        Perhatian terhadap detailnya sangat luar biasa. Set pernikahan saya dari Maison Dorée bukan sekadar perhiasan biasa — ini adalah sebuah karya seni yang akan saya jaga selamanya.
                     </p>
                     <div class="testimonial-author">
                         <div class="testimonial-avatar">
@@ -323,7 +337,7 @@ https://templatemo.com/tm-611-maison-doree
                         </div>
                         <div class="testimonial-info">
                             <p class="testimonial-name">Catherine W.</p>
-                            <p class="testimonial-detail">Bridal Collection</p>
+                            <p class="testimonial-detail">Koleksi Perhiasan</p>
                         </div>
                     </div>
                 </div>
@@ -333,7 +347,7 @@ https://templatemo.com/tm-611-maison-doree
                         <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                     </div>
                     <p class="testimonial-text">
-                        Working with the design team to create a custom anniversary gift was seamless. They understood my vision and exceeded expectations.
+                        Bekerja sama dengan tim desainer untuk membuat hadiah ulang tahun pernikahan kustom terasa sangat mudah. Mereka memahami impian saya dan memberikan hasil yang melebihi ekspektasi.
                     </p>
                     <div class="testimonial-author">
                         <div class="testimonial-avatar">
@@ -341,7 +355,7 @@ https://templatemo.com/tm-611-maison-doree
                         </div>
                         <div class="testimonial-info">
                             <p class="testimonial-name">Michael T.</p>
-                            <p class="testimonial-detail">Custom Design</p>
+                            <p class="testimonial-detail">Desain Kostum</p>
                         </div>
                     </div>
                 </div>
@@ -351,7 +365,7 @@ https://templatemo.com/tm-611-maison-doree
                         <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                     </div>
                     <p class="testimonial-text">
-                        Three generations of my family have now worn pieces from Maison Dorée. The quality is unmatched and each piece tells our story.
+                        Tiga generasi keluarga saya kini telah mengenakan perhiasan dari Luvury Glam. Kualitasnya tidak tertandingi dan setiap produknya menceritakan kisah tersendiri.
                     </p>
                     <div class="testimonial-author">
                         <div class="testimonial-avatar">
@@ -359,7 +373,7 @@ https://templatemo.com/tm-611-maison-doree
                         </div>
                         <div class="testimonial-info">
                             <p class="testimonial-name">Eleanor M.</p>
-                            <p class="testimonial-detail">Heritage Collection</p>
+                            <p class="testimonial-detail">Koleksi Warisan Tradisi</p>
                         </div>
                     </div>
                 </div>
@@ -367,134 +381,152 @@ https://templatemo.com/tm-611-maison-doree
         </div>
     </section>
     
-    <!-- Contact -->
+      <!-- Contact -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-content">
-                    <p class="text-label">Visit Our Atelier</p>
+                    <p class="text-label">Kunjungi Studio Kami</p>
                     <h2 class="heading-display contact-title">
-                        Experience Maison Dorée
+                        Rasakan Pengalaman Luvury Glam
                     </h2>
                     <p class="text-body contact-text">
-                        We invite you to visit our atelier for a personal 
-                        consultation. Discover our collections in an intimate 
-                        setting and work with our designers to create something 
-                        truly unique.
+                        Kami mengundang Anda untuk mengunjungi studio kami untuk konsultasi pribadi. 
+                        Temukan koleksi kami dalam suasana yang hangat dan bekerja samalah dengan desainer kami 
+                        untuk menciptakan sesuatu yang benar-benar unik.
                     </p>
                     
                     <div class="contact-details">
                         <div class="contact-item">
-                            <p class="contact-item-label">Address</p>
+<p class="text-body contact-text">
+                        Kami mengundang Anda untuk mengunjungi studio kami untuk konsultasi pribadi. 
+                        Temukan koleksi kami dalam suasana yang hangat dan bekerja samalah dengan desainer kami 
+                        untuk menciptakan sesuatu yang benar-benar unik.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <p class="contact-item-label">Alamat</p>
                             <p class="contact-item-value">
-                                742 Fifth Avenue, Suite 1200<br>
-                                New York, NY 10019
+                                Jl. Sidobali No.1, Muja muju, Kec. Umbulharjo<br>
+                                Kota Yogyakarta, Daerah Istimewa Yogyakarta 55165
                             </p>
                         </div>
                         <div class="contact-item">
-                            <p class="contact-item-label">Hours</p>
+                            <p class="contact-item-label">Jam Operasional</p>
                             <p class="contact-item-value">
-                                Tuesday – Saturday, 10:00 AM to 06:00 PM<br>
-                                Sunday – Monday, By Appointment
+                                Selasa – Sabtu, 10:00 WIB hingga 18:00 WIB<br>
+                                Minggu – Senin, Hanya dengan Janji Temu
                             </p>
                         </div>
                         <div class="contact-item">
-                            <p class="contact-item-label">Contact</p>
+                            <p class="contact-item-label">Kontak</p>
                             <p class="contact-item-value">
-                                <a href="tel:+12125551234">+1 (212) 555-1234</a><br>
-                                <a href="mailto:hello@maisondoree.com">hello@maisondoree.com</a>
+                                <a href="tel:+12125551234">083820675l</a><br>
+                                <a href="mailto:hello@luvuryglam.com">hello@luvuryglam.com</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 
                 <div class="contact-form-wrapper">
-                    <h3 class="form-title">Request an Appointment</h3>
+                    <h3 class="form-title">Permintaan Janji Temu</h3>
                     <form id="appointmentForm">
                         <div class="form-group">
-                            <label class="form-label" for="name">Full Name</label>
+                            <label class="form-label" for="name">Nama Lengkap</label>
                             <input type="text" id="name" name="name" class="form-input" required>
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="email">Email Address</label>
+                            <label class="form-label" for="email">Alamat Email</label>
                             <input type="email" id="email" name="email" class="form-input" required>
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="phone">Phone Number</label>
+                            <label class="form-label" for="phone">Nomor Telepon</label>
                             <input type="tel" id="phone" name="phone" class="form-input">
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="message">Tell Us About Your Visit</label>
+                            <label class="form-label" for="message">Ceritakan Tentang Kunjugan Anda</label>
                             <textarea id="message" name="message" class="form-textarea" 
                                 placeholder="Interested in a specific collection? Planning a custom piece?"></textarea>
                         </div>
-                        <button type="submit" class="form-submit">Request Appointment</button>
+                        <button type="submit" class="form-submit">Ajukan Janji Temu</button>
                     </form>
                 </div>
+            </div>
+            <div class="contact-map-wrapper" style="margin-top: 50px; width: 100%;">
+                <iframe 
+                  src="https://maps.google.com/maps?q=SMA%20Negeri%208%20Yogyakarta&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  width="600"
+                  height="450"
+                  style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy">
+                </iframe>
             </div>
         </div>
     </section>
     
-    <!-- Footer -->
+      <!-- Footer -->
     <footer class="site-footer">
         <div class="container">
             <div class="footer-grid">
                 <!-- Column 1: Brand & Contact -->
                 <div class="footer-brand">
-                    <p class="footer-logo">Maison <span>Dorée</span></p>
+                    <p class="footer-logo">Luvury <span>Glam</span></p>
                     <p class="footer-tagline">
-                        Handcrafted gold jewelry of exceptional quality and timeless elegance. Family-owned atelier since 1987.
+                       Perhiasan emas buatan tangan dengan kualitas luar biasa dan keanggunan abadi. Studio milik keluarga sejak 1975.
                     </p>
-                    <div class="footer-contact-info">
-                        <p>742 Fifth Avenue, Suite 1200</p>
-                        <p>New York, NY 10019</p>
-                        <p><a href="tel:+12125551234">+1 (212) 555-1234</a></p>
-                        <p><a href="mailto:hello@maisondoree.com">hello@maisondoree.com</a></p>
-                    </div>
+                   <div class="footer-contact-info">
+                       <p>Jl. Sidobali No.1, Muja Muju</p>
+                       <p>Kec. Umbulharjo, Kota Yogyakarta 55165</p>
+                       <p><a href="tel:+625371169">(0274) 513493</a></p>
+                       <p><a href="mailto:info@sman8jogja.sch.id">info@sman8jogja.sch.id</a></p>
+                   </div>
+                       
                 </div>
                 
                 <!-- Column 2: Quick Links -->
                 <div class="footer-column">
-                    <h4 class="footer-column-title">Collections</h4>
+                    <h4 class="footer-column-title">Koleksi</h4>
                     <ul class="footer-links">
-                        <li><a href="#collections">All Collections</a></li>
-                        <li><a href="#">Bridal</a></li>
-                        <li><a href="#">Everyday Elegance</a></li>
-                        <li><a href="#">Statement Pieces</a></li>
-                        <li><a href="#">Men's Collection</a></li>
+                        <li><a href="#collections">Semua Koleksi</a></li>
+                        <li><a href="#">Pernikan</a></li>
+                        <li><a href="#">Keanggunan Harian</a></li>
+                        <li><a href="#">Eksklusif</a></li>
+                        <li><a href="#">Koleksi Pria</a></li>
                     </ul>
                 </div>
                 
                 <!-- Column 3: Company -->
                 <div class="footer-column">
-                    <h4 class="footer-column-title">Company</h4>
+                    <h4 class="footer-column-title">Perusahaan</h4>
                     <ul class="footer-links">
-                        <li><a href="#story">Our Story</a></li>
-                        <li><a href="#craftsmanship">Craftsmanship</a></li>
-                        <li><a href="#contact">Visit Us</a></li>
-                        <li><a href="#">Custom Design</a></li>
-                        <li><a href="#">Care Guide</a></li>
+                        <li><a href="#story">Kisah Kami</a></li>
+                        <li><a href="#craftsmanship">Keahlian Kami</a></li>
+                        <li><a href="#contact">Kunjungi Kami</a></li>
+                        <li><a href="#">Desain Kustom</a></li>
+                        <li><a href="#">Panduan Perawatan</a></li>
                     </ul>
                 </div>
                 
                 <!-- Column 4: About This Website -->
                 <div class="footer-column footer-about">
-                    <h4 class="footer-column-title">About This Website</h4>
+                    <h4 class="footer-column-title">Tentang Situs Ini</h4>
                     <p>
-                        This is a free HTML CSS template designed for gold jewelry boutiques and luxury brands.
+                        Ini adalah templat HTML CSS gratis yang dirancang untuk butik perhiasan emas dan merek mewah.
                     </p>
                     <p>
-                        You may download and use this template for your website. Please support us by keeping the credit link to <a href="https://templatemo.com" target="_blank">TemplateMo</a>.
+                        Anda dapat mengunduh dan menggunakan templat ini untuk situs web Anda. Mohon dukung kami dengan tetap menyertakan tautan kredit ke <a href="https://templatemo.com" target="_blank">TemplateMo</a>.
                     </p>
                     <p>
-                        Images: <a href="https://unsplash.com" target="_blank">Unsplash</a>
+                        Gambar: <a href="https://unsplash.com" target="_blank">Unsplash</a>
                     </p>
                 </div>
             </div>
-            
-            <!-- Footer Bottom -->
+
+          <!-- Footer Bottom -->
             <div class="footer-bottom">
-                <p class="footer-copyright">© 2026 Maison Dorée. Design: <a href="https://templatemo.com" target="_blank" rel="nofollow">TemplateMo</a></p>
+                <p class="footer-copyright">© 2026 Luvury Glam. Design: <a href="https://templatemo.com" target="_blank" rel="nofollow">TemplateMo</a></p>
                 <div class="footer-social">
                     <a href="#">Instagram</a>
                     <a href="#">Pinterest</a>
@@ -503,6 +535,7 @@ https://templatemo.com/tm-611-maison-doree
             </div>
         </div>
     </footer>
-    <script src="templatemo-maison-doree.js"></script>
+    <script src="templatemo-maison-doree.js"></script>  
+    <script src="login/js/welcome.js"></script>
 </body>
 </html>
